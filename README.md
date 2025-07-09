@@ -10,7 +10,7 @@
 
 Many developers use the same computer for both personal (e.g., GitHub) and work (e.g., GitLab) projects. This can lead to commits being made under the wrong identity.
 
-This repository demonstrates how to configure Git to **automatically use the correct user and email** based on the directory of each project.
+This repository demonstrates how to configure Git to **automatically use the correct user and email** based on the directory where each project is located.
 
 ---
 
@@ -18,7 +18,6 @@ This repository demonstrates how to configure Git to **automatically use the cor
 
 - Prevents identity mix-ups between projects.
 - Keeps your work history clean and organized.
-- Useful even without corporate email — simply use separate accounts (e.g., two Gmail addresses).
 
 ---
 
@@ -37,8 +36,8 @@ In this guide, `~` represents your **home directory**.
 
 ## 📦 Files included
 
-- [`setup_git_users.md`](./setup_git_users.md): A step-by-step guide.
-- [`./.config/git/gitconfig_work`](./.config/git/gitconfig_work): Sample config for work-related projects.
+- [`setup_git_users.md`](./setup_git_users.md): Step-by-step setup guide.
+- [`./.config/git/gitconfig_work`](./.config/git/gitconfig_work): Example config for work-related projects.
 
 ---
 
